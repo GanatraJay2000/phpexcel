@@ -1,0 +1,33 @@
+.has-scrollbar::-webkit-scrollbar {
+  width: var(--popup-scrollbar-track-width, 7.5px);
+}
+
+/* Track */
+.has-scrollbar::-webkit-scrollbar-track {
+  background:var(--popup-scrollbar-track-color, #ffffffee);
+}
+
+/* Handle */
+.has-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--popup-scrollbar-thumb-color,#dddddd);
+}
+
+/* Handle on hover */
+.has-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--popup-scrollbar-thumb-hover-color,#777777dd);
+}
+
+@media screen and (max-width: 500px) {
+  .has-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .has-scrollbar::-webkit-scrollbar-track {
+    display: none;
+  }
+  .has-scrollbar::-webkit-scrollbar-thumb {
+    display: none;
+  }
+  .has-scrollbar::-webkit-scrollbar-thumb:hover {
+    display: none;
+  }
+}
