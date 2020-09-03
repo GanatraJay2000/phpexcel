@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "root";
+$servername = "localhost:3306";
+$username = "roro";
+$password = "1.048596Beta";
 $dbname = "phpexcel";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
